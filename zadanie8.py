@@ -1,0 +1,5 @@
+txt_file = open("zadanie_8.txt", "r+")
+print(txt_file.read())
+txt_file.write(" czy sie udalo")
+print(txt_file.read(), "dopisane powinny zostać slowa \"czy sie udalo\" jesli nie ma ich na koncu to znaczy ze nie da sie")
+txt_file.close()
